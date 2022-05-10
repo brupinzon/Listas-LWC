@@ -1,0 +1,18 @@
+<template>
+	<lightning-card>
+		<h1>Dados</h1>
+		<template for:each={lista} for:item='listas'>
+			<p key={listas.cod}> Nome: {listas.nome}; 
+				Tipo: {listas.tipo}; Cor: {listas.cor}</p>
+		</template>
+	</lightning-card>
+</template>
+
+
+			<!--
+			Estrutura de dados</h1>
+			<p>{pessoa.nome}</p>
+			<p>{pessoa.idade}</p>
+			<p>{pessoa.telefone}</p>
+			<p>{pessoa.status}</p>
+			-->
